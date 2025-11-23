@@ -1,8 +1,8 @@
 baseurl = "https://isus203.github.io" # Изменено
 title = "isus203" # Изменено
 theme = "hugo-coder"
-languagecode = "ru" # Изменено
-defaultcontentlanguage = "ru" # Изменено
+languagecode = "en" # Изменено
+defaultcontentlanguage = "en" # Изменено
 
 [pagination]
   pagerSize = 20 # Исправлено: замена paginate = 20
@@ -12,8 +12,8 @@ style = "github-light"
 
 [params]
   author = "isus203" # Изменено
-  info = "Android-разработчик и энтузиаст из Москвы" # Изменено
-  description = "Персональный сайт разработчика isus203" # Изменено
+  info = "An Android developer and enthusiast from Moscow" # Изменено
+  description = "Personal website of the developer isus203" # Изменено
   keywords = "android,developer,tecno,recovery,hugo" # Изменено
   #avatarurl = "images/avatar.png" # Оставьте, если есть
 
@@ -57,17 +57,17 @@ style = "github-light"
 
 # Menu links
 [[menu.main]]
-  name = "Обо мне"
+  name = "About me"
   weight = 1
   url = "about/"
 
 [[menu.main]]
-name = "Проекты"
+name = "Projects"
 weight = 2
 url = "projects/"
 
 [[menu.main]]
-name = "Контакты" 
+name = "Contacts" 
 weight = 3
 url = "contact/"
 
@@ -108,8 +108,3 @@ url = "projects/"
 name = "Contact me"
 weight = 3
 url = "contact/"
-
-[[menu.main]]
-name = "Turbo C++"
-weight = 4
-url = "TurboCPP-Web/"
