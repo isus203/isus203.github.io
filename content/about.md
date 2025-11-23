@@ -4,6 +4,7 @@ description = "Information about isus203"
 date = "2025-11-23"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "isus203"
+menu = false
 +++
 
 ## About me
