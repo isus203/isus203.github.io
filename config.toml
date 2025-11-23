@@ -1,27 +1,27 @@
-baseurl = "https://sounddrill31.github.io"
-title = "Souhrud's Website"
+baseurl = "https://isus203.github.io" # Изменено
+title = "isus203" # Изменено
 theme = "hugo-coder"
-languagecode = "en"
-defaultcontentlanguage = "en"
+languagecode = "ru" # Изменено
+defaultcontentlanguage = "ru" # Изменено
 
-paginate = 20
+[pagination]
+  pagerSize = 20 # Исправлено: замена paginate = 20
 
 [markup.highlight]
 style = "github-light"
 
 [params]
-  author = "Souhrud Reddy"
-  info = "Student by day, Hobbyist Developer by night"
-  description = "Souhrud's personal website"
-  keywords = "blog,developer,personal"
-  #avatarurl = "images/avatar.png"
-  #gravatar = "souhrud@live.com"
+  author = "isus203" # Изменено
+  info = "Android-разработчик и энтузиаст из Москвы" # Изменено
+  description = "Персональный сайт разработчика isus203" # Изменено
+  keywords = "android,developer,tecno,recovery,hugo" # Изменено
+  #avatarurl = "images/avatar.png" # Оставьте, если есть
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
-  since = 2023
+  since = 2025 
 
   enableTwemoji = true
 
@@ -34,6 +34,44 @@ style = "github-light"
 
 [taxonomies]
   category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/isus203" # Изменено
+[[params.social]]
+  name = "Telegram" # Изменено
+  icon = "fa-brands fa-telegram fa-2x" # Изменено
+  weight = 2
+  url = "https://t.me/isus203" # Изменено
+[[params.social]]
+  name = "4PDA" # Изменено
+  icon = "fa-solid fa-code" # Условно, так как иконки 4pda нет, можно использовать фавикон или другую
+  weight = 3
+  url = "https://4pda.to/forum/index.php?showuser=10818992" # Изменено
+
+# Menu links
+[[menu.main]]
+  name = "Обо мне"
+  weight = 1
+  url = "about/"
+
+[[menu.main]]
+name = "Проекты"
+weight = 2
+url = "projects/"
+
+[[menu.main]]
+name = "Контакты" 
+weight = 3
+url = "contact/"
+
+# Удален старый пункт "Turbo C++", если он не нужен.
   series = "series"
   tag = "tags"
   author = "authors"
