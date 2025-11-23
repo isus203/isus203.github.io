@@ -33,7 +33,6 @@ style = "github-light"
   # customJS = ["js/custom.js"]
 
 [taxonomies]
-  category = "categories"
   series = "series"
   tag = "tags"
   author = "authors"
@@ -70,8 +69,3 @@ url = "projects/"
 name = "Contacts" 
 weight = 3
 url = "contact/"
-
-# Удален старый пункт "Turbo C++", если он не нужен.
-  series = "series"
-  tag = "tags"
-  author = "authors"
