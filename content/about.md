@@ -1,26 +1,21 @@
 +++
 title = "About"
-description = "This page contains more information about me"
-date = "2024-07-10"
+description = "Information about isus203"
+date = "2025-11-23"
 aliases = ["about-us", "about-hugo", "contact"]
-author = "Souhrud Reddy"
+author = "isus203"
 +++
 
+## About me
+Hi, I am **isus203**. I am based in **Moscow, Russia**.
 
-## About me:
-I am an aspiring developer from Bangalore.
+I am an Android enthusiast and developer focusing on system modifications, custom recoveries, and device tree maintenance.
 
-## Academics:
-- I have pursued CBSE till grade 7, where I moved to Bengaluru(and ICSE), and finished my 10th and 12th Through NIOS
-- I am currently pursuing BCA from from a nearby college called Gopalan College of Commerce
-- I am also attempting to get into IIT-M's online BS Electronics Systems course
+## My Focus
+My recent work involves development for Tecno devices (specifically KH7n), including:
+- **Custom Recoveries:** Porting and maintaining OrangeFox and TWRP.
+- **System Partitioning:** Tools for re-partitioning and GPT backup.
+- **ROM Development:** Maintaining Device and Vendor trees for LineageOS.
 
-## Some of My Work:
-I have made/added onto a variety of open source projects including:
+You can check my repositories on the [projects page](/projects/).
 
-* https://github.com/sounddrill31/Checkpost-Arduino
-
-You can see more of it over on the [projects page](https://isus203.github.io/projects/)
-
-## About this website
-This website is built using Hugo, and uses @luizdepra's Coder theme for the interface and is hosted on Github Pages at the moment
