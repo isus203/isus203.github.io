@@ -1,6 +1,7 @@
 +++
 title = "Projects"
 slug = "projects"
+menu = false
 +++
 
 Here is a list of my open source projects and contributions, focusing on Android development and device maintenance:
