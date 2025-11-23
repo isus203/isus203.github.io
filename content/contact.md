@@ -1,6 +1,7 @@
 +++
 title = "Contact"
 slug = "contact"
+menu = false
 +++
 
 You can find me or contact me via the following platforms:
