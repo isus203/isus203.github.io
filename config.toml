@@ -15,7 +15,7 @@ style = "github-light"
   info = "An Android developer and enthusiast from Moscow" # Изменено
   description = "Personal website of the developer isus203" # Изменено
   keywords = "android,developer,tecno,recovery,hugo" # Изменено
-  #avatarurl = "images/avatar.png" # Оставьте, если есть
+  avatarurl = "images/avatar.png" # Оставьте, если есть
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
