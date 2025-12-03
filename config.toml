@@ -1,4 +1,4 @@
-baseurl = "https://isus203.github.io" # Изменено
+baseurl = "https://isus203.github" # Изменено
 title = "isus203" # Изменено
 theme = "hugo-coder"
 languagecode = "en" # Изменено
